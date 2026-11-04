@@ -1,0 +1,11 @@
+project: savantenvs/redot-engine
+target: fuzz_fuzzy_search
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_fuzzy_search/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_fuzzy_search
+    libfuzzer: true
+    timeout: 30
+    env:
+      MFUZZ_COMPAT_LEVEL: '2'

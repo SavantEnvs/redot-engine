@@ -1,0 +1,1 @@
+sin(x) + max(1, 2) + Vector2(1, 2).x

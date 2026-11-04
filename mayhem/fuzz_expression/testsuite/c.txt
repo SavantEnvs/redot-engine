@@ -1,0 +1,1 @@
+"abc".length() + int("12") if x > 0 else -1

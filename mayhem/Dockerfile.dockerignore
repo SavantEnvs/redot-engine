@@ -1,0 +1,6 @@
+bin/
+*.o
+*.a
+.sconsign*.dblite
+__pycache__/
+.DS_Store
