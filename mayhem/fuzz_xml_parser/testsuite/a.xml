@@ -1,0 +1,2 @@
+<?xml version="1.0"?>
+<root a="1" b='2'><child>text &amp; more</child><!-- c --><empty/><![CDATA[raw]]></root>

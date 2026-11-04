@@ -1,0 +1,4 @@
+,res
+res://scenes/main.tscn
+res://scripts/player.gd
+res://assets/icon.png
